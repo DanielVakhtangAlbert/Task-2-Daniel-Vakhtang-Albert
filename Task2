@@ -10,43 +10,80 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"
 	</head>
 	<body>
-        <h1>ESCROW Cologne-Bonn</h1>
-		<p style="color: blue;"> Software Security Company</p>
-		<h2>About Us</h2>
-        <p>The S.E.I. headquarter is located in Germany, Nature-Park-Rhine-Westerwald, Gartenstraße 22, Dürrholz-Werlenbach. Founded by long time experienced international management, working for multinational computer companies like IBM, Siemens, OKI, Mitsubishi Europe, Oracle, and as SAP users.
-        <p>The offices in Germany are covering Europe with several service centers in different cities. Service Center in Austria, Switzerland and France are covering also the West- and in addition East European countries and the Arabic market places.</p>
+	<div class="tab-content">
+			<div id="Start" class="tab-pane fade in active">
+        <h1>Mountains</h1>
+		<p style="color: blue;"> Types of Mountains</p>
+		<img src="re.jpg" alt="some_text" style="width:600px;height:200px;">
+<header>
+		<div class="hero-image"></div>
+		<nav>
+			<ul class="nav nav-tabs">
+			  <li class="active"><a  href="#chapter1"><img src="everest.jpg" target="_blank" style="width:97px;</a></li>  
+			  <li><a data-toggle="tab" class="active"><a href="#chapter2"><img src="alp.jpg" target="_blank" style="width:75px;</a></li>
+			  <li><a data-toggle="tab" class="active"><a href="#chapter3"><img src="pike.jpg" style="width:80px; </a></li>
+			 
+					<a "></a>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="tab-content">
+			<div id="chapter1" class="tab-pane fade in active">
+				<h1>Everest</h1>
+				<figure>
+					<img src="everest.jpg" alt="Everest" title="Everest" style="width:500px; margin-top:0.4em">
+					<figcaption>Everest</figcaption>
+				</figure>
+				<p>Mount Everest is Earth's highest mountain above sea level.</p>
+				<p>It is located in the Mahalangur Himal sub-range of the Himalayas.</p>
+				<p>The current official elevation of 8,848 m (29,029 ft), recognised by China and Nepal, was established by a 1955 Indian survey and subsequently confirmed by a Chinese survey in 1975.</p>
+				<iframe width="700" height="315" src=https://en.wikipedia.org/wiki/Mountain frameborder="0" allowfullscreen></iframe>
+		
+				</p>
+			</div>
+			<a href="#Start">Getting Started</a>
+			<a href="#chapter2">Next Chapter</a>
+			<div id="chapter2" class="tab-pane fade">
+				<h1>Alpspitze Germany</h1>
+				<h2>One of the biggest mountains in Europe</h2>
+				<p>The Alpspitze is a mountain, 2,628 m, in Bavaria, Germany.</p>
+				<p>Its pyramidal peak is the symbol of Garmisch-Partenkirchen and is one of the best known and most attractive mountains of the Northern Limestone Alps.</p>
+				<p>It is made predominantly of Wetterstein limestone from the Upper Triassic.</p>
+				<img src="alp.jpg" alt="alp" title="alp" style="max-width:100%;">
+				<img src="alp.jpg" alt="alp" title="alp" style="max-width:20%;">
+				<img src="alp.jpg" alt="alp" title="alp" style="width:700px; height:100px;">
+					
+					<hr>
+				</div>
+			</div>
+			<a href="#chapter3">Next Chapter</a>
+			<a href="#Start">Getting Started</a>
+   <div id="chapter3" class="tab-pane fade">
+				<h1>Pikes Peak</h1>
+				<p>Pikes Peak is the highest summit of the southern Front Range of the Rocky Mountains, in North America.</p>
+				<p>The ultra-prominent 14,115-foot (4,302.31 m) fourteener is located in Pike National Forest, 12 miles (19 km) west of downtown Colorado Springs, Colorado.</p>
+				<p>The mountain is named in honor of American explorer Zebulon Pike (though he was unable to reach the summit).</p>
+				<img src="pike.jpg" alt="pike" title="pike" style="width:400px;">
+			<ul>
+<li>Mountain 1
+<ul>
+<li>Mountain 1.1</li>
+<li>Mountain 1.2</li>
+<ul>
+<li>Mountain 1.2.1</li>
+<li>Mountain 1.2.2</li>
+</ul>
+<li>Mountain 1.3</li>
+<li>Mountain 1.4</li>
+</ul>
+</li>
+<li>Mountain 2</li>
+<ul>
+<li>Mountain 2.1</li>
+<li>Mountain 2.2</li>
+</ul>
 
-	
-   </form>
-      <h1>List of students</h1>
-      <table border="1" style="border: 1px solid green;width:50%;">
-        <tr>
-          <td>First name</td>
-          <td>Last name</td>
-		  <td>E-mail</td>
-		  <td style="text-align:center;">Website</td>
-		  </tr>
-         <tr>
-           <td>Daniel</td>
-           <td>Albert</td>
-           <td><a href="mailto:albertdaniel17@gmail.com;">e-mail</a></td>
-		   <td><a href="avakhtan.ecm.zsem.hr" target="_blank">Website</a></td>
-		   
-		   <tr>
-            <td>Ema</td>
-			<td>Stefanikova</td>
-			<td><a href="mailto:estefani@zsem.hr;">e-mail</a></td>
-			<td><a href="estefani.ecm.zsem.hr" target="_blank">Website</a></td>
-			<tr>
-			<td>Cole</td>
-			<td>Paige</td>
-			<td><a href="mailto:cpaige@zsem.hr;">e-mail</a></td>
-			<td><a href="cpaige.ecm.zsem.hr" target="_blank">Website</a></td>
-			<tr>
-			<td>Noelia</td>
-			<td>Van Poppel</td>
-			<td><a href="mailto:nvanpop@zsem.hr;">e-mail</a></td>
-			<td><a href="nvanpop.ecm.zsem.hr" target="_blank">Website</a></td>
-          </tr>
-        </table>
-     </body>
+<nav>
+			<a href="#chapter2">Previous Chapter</a>
+		    <a href="#Start">Getting Started</a>
